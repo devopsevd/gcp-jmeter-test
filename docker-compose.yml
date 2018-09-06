@@ -7,8 +7,3 @@ services:
     tty: true
   slave:
     image: devopsevd/oss-jmeter-slave
-
-networks:
-  default:
-    external:
-      name: bundlev2_prodnetwork
